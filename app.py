@@ -17,7 +17,7 @@ st.title("NewsGuardian")
 
 
 # Inserting logo
-st.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdA-MJ_SUCRgLs1prqudpMdaX4x-x10Zqlwp7cpzXWCMM9xjBAJYWdJsDlLoHBqNpj8qs&usqp=CAU")
+st.image("https://raw.githubusercontent.com/noorkhokhar99/NewsGuardian/main/logo.jpeg")
 # Function to get gRPC channel for NewsGuardian model
 def get_tts_channel():
     channel_tts = ClarifaiChannel.get_grpc_channel()
